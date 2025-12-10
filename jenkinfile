@@ -1,0 +1,51 @@
+pipeline {
+    agent any
+
+    tools {
+        jdk 'jdk17'
+        maven 'maven3'
+    }
+
+    stages {
+
+        stage('Checkout Code') {
+            steps {
+                git branch: 'main', url: 'https://github.com/USERNAME/REPO.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh 'mvn -B clean install'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+
+        stage('Allure Report') {
+            steps {
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'target/allure-results']]
+                ])
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'target/**/*.xml', fingerprint: true
+        }
+
+        failure {
+            mail to: 'team@example.com',
+                 subject: "❌ Selenium Automation Failed in Jenkins",
+                 body: "Build ${env.BUILD_NUMBER} failed.\nCheck Jenkins for details."
+        }
+    }
+}

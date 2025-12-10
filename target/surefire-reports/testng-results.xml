@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="5" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-10T11:49:35 IST" name="Selenium POM Test Suite" finished-at="2025-12-10T11:49:49 IST" duration-ms="13088">
+    <groups>
+    </groups>
+    <test started-at="2025-12-10T11:49:35 IST" name="Test App Tests" finished-at="2025-12-10T11:49:49 IST" duration-ms="13088">
+      <class name="com.test.org.tests.TestAppTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:36 IST" name="setUp" finished-at="2025-12-10T11:49:38 IST" duration-ms="2577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:36 IST" name="setUp" finished-at="2025-12-10T11:49:38 IST" duration-ms="2593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:36 IST" name="setUp" finished-at="2025-12-10T11:49:38 IST" duration-ms="2632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:38 IST" name="initializePage" finished-at="2025-12-10T11:49:38 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:38 IST" name="initializePage" finished-at="2025-12-10T11:49:38 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:38 IST" name="initializePage" finished-at="2025-12-10T11:49:38 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testLoginWithMissingPassword()[pri:3, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:38 IST" name="testLoginWithMissingPassword" description="Verify login fails with missing password" finished-at="2025-12-10T11:49:40 IST" duration-ms="1350" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.test.org.tests.TestAppTest.testLoginWithMissingPassword(TestAppTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithMissingPassword -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:38 IST" name="testSuccessfulLogin" description="Verify successful login with valid credentials" finished-at="2025-12-10T11:49:40 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method signature="testLoginWithMissingEmail()[pri:2, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:38 IST" name="testLoginWithMissingEmail" description="Verify login fails with missing email" finished-at="2025-12-10T11:49:40 IST" duration-ms="1345" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.test.org.tests.TestAppTest.testLoginWithMissingEmail(TestAppTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithMissingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:40 IST" name="tearDown" finished-at="2025-12-10T11:49:40 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:40 IST" name="tearDown" finished-at="2025-12-10T11:49:40 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:40 IST" name="setUp" finished-at="2025-12-10T11:49:42 IST" duration-ms="1866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:40 IST" name="setUp" finished-at="2025-12-10T11:49:42 IST" duration-ms="1862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:40 IST" name="tearDown" finished-at="2025-12-10T11:49:40 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:40 IST" name="setUp" finished-at="2025-12-10T11:49:42 IST" duration-ms="1820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="initializePage" finished-at="2025-12-10T11:49:42 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testDropdownSelectOption1()[pri:5, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="testDropdownSelectOption1" description="Verify dropdown selection and submission with Option 1" finished-at="2025-12-10T11:49:42 IST" duration-ms="856" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message should show opt1 was submitted expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message should show opt1 was submitted expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.test.org.tests.TestAppTest.testDropdownSelectOption1(TestAppTest.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownSelectOption1 -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="initializePage" finished-at="2025-12-10T11:49:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testLoginWithMissingCredentials()[pri:4, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="testLoginWithMissingCredentials" description="Verify login fails with both email and password missing" finished-at="2025-12-10T11:49:43 IST" duration-ms="977" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login should fail with missing credentials expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login should fail with missing credentials expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.test.org.tests.TestAppTest.testLoginWithMissingCredentials(TestAppTest.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithMissingCredentials -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="initializePage" finished-at="2025-12-10T11:49:42 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testDropdownSelectOption2()[pri:6, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="testDropdownSelectOption2" description="Verify dropdown selection and submission with Option 2" finished-at="2025-12-10T11:49:42 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownSelectOption2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="tearDown" finished-at="2025-12-10T11:49:42 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="tearDown" finished-at="2025-12-10T11:49:43 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:42 IST" name="setUp" finished-at="2025-12-10T11:49:44 IST" duration-ms="1647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:43 IST" name="setUp" finished-at="2025-12-10T11:49:44 IST" duration-ms="1801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:43 IST" name="tearDown" finished-at="2025-12-10T11:49:43 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:43 IST" name="setUp" finished-at="2025-12-10T11:49:44 IST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:44 IST" name="initializePage" finished-at="2025-12-10T11:49:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testDropdownSubmitWithoutSelection()[pri:7, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:44 IST" name="testDropdownSubmitWithoutSelection" description="Verify dropdown submission without selection" finished-at="2025-12-10T11:49:45 IST" duration-ms="1214" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message should prompt to select an option expected [Select an option] but found [Login successful]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message should prompt to select an option expected [Select an option] but found [Login successful]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.test.org.tests.TestAppTest.testDropdownSubmitWithoutSelection(TestAppTest.java:130)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownSubmitWithoutSelection -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:44 IST" name="initializePage" finished-at="2025-12-10T11:49:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testDropdownSelectByText()[pri:8, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:44 IST" name="testDropdownSelectByText" description="Verify dropdown selection by visible text" finished-at="2025-12-10T11:49:45 IST" duration-ms="724" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Selected option should be 'Option 1' expected [Option 1] but found [Select Option]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Selected option should be 'Option 1' expected [Option 1] but found [Select Option]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.test.org.tests.TestAppTest.testDropdownSelectByText(TestAppTest.java:143)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownSelectByText -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="initializePage" finished-at="2025-12-10T11:49:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testStatusMessageDisplayedAfterLogin()[pri:9, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="testStatusMessageDisplayedAfterLogin" description="Verify status message is displayed after login" finished-at="2025-12-10T11:49:45 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusMessageDisplayedAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="tearDown" finished-at="2025-12-10T11:49:45 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="setUp" finished-at="2025-12-10T11:49:47 IST" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="tearDown" finished-at="2025-12-10T11:49:45 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="tearDown" finished-at="2025-12-10T11:49:45 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:45 IST" name="setUp" finished-at="2025-12-10T11:49:47 IST" duration-ms="1861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:46 IST" name="setUp" finished-at="2025-12-10T11:49:47 IST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="initializePage" finished-at="2025-12-10T11:49:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testStatusMessageDisplayedAfterSubmit()[pri:10, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="testStatusMessageDisplayedAfterSubmit" description="Verify status message is displayed after dropdown submit" finished-at="2025-12-10T11:49:47 IST" duration-ms="515" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message should be displayed after submit expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message should be displayed after submit expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.test.org.tests.TestAppTest.testStatusMessageDisplayedAfterSubmit(TestAppTest.java:171)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusMessageDisplayedAfterSubmit -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="initializePage" finished-at="2025-12-10T11:49:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testPageTitle()[pri:12, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="testPageTitle" description="Verify page title" finished-at="2025-12-10T11:49:47 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="initializePage" finished-at="2025-12-10T11:49:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="testLoginThenDropdownSubmit()[pri:11, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="testLoginThenDropdownSubmit" description="Verify sequential login and dropdown operations" finished-at="2025-12-10T11:49:48 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginThenDropdownSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="tearDown" finished-at="2025-12-10T11:49:47 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:47 IST" name="tearDown" finished-at="2025-12-10T11:49:48 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.org.tests.TestAppTest@738dc9b]" started-at="2025-12-10T11:49:48 IST" name="tearDown" finished-at="2025-12-10T11:49:49 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.org.tests.TestAppTest -->
+    </test> <!-- Test App Tests -->
+  </suite> <!-- Selenium POM Test Suite -->
+</testng-results>
