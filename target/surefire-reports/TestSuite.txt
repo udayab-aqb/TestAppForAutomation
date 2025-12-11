@@ -1,33 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 14.03 s <<< FAILURE! -- in TestSuite
-com.test.org.tests.TestAppTest.testLoginWithMissingPassword -- Time elapsed: 1.362 s <<< FAILURE!
-java.lang.AssertionError: Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at com.test.org.tests.TestAppTest.testLoginWithMissingPassword(TestAppTest.java:74)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-com.test.org.tests.TestAppTest.testLoginWithMissingEmail -- Time elapsed: 1.363 s <<< FAILURE!
+Tests run: 12, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 12.95 s <<< FAILURE! -- in TestSuite
+com.test.org.tests.TestAppTest.testLoginWithMissingEmail -- Time elapsed: 0.953 s <<< FAILURE!
 java.lang.AssertionError: Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -52,7 +27,32 @@ java.lang.AssertionError: Status message should indicate missing credentials exp
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.test.org.tests.TestAppTest.testDropdownSelectOption1 -- Time elapsed: 0.775 s <<< FAILURE!
+com.test.org.tests.TestAppTest.testLoginWithMissingPassword -- Time elapsed: 0.954 s <<< FAILURE!
+java.lang.AssertionError: Status message should indicate missing credentials expected [Missing credentials] but found [Login successful]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.test.org.tests.TestAppTest.testLoginWithMissingPassword(TestAppTest.java:74)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+com.test.org.tests.TestAppTest.testDropdownSelectOption1 -- Time elapsed: 0.767 s <<< FAILURE!
 java.lang.AssertionError: Status message should show opt1 was submitted expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -75,7 +75,7 @@ java.lang.AssertionError: Status message should show opt1 was submitted expected
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.test.org.tests.TestAppTest.testLoginWithMissingCredentials -- Time elapsed: 0.903 s <<< FAILURE!
+com.test.org.tests.TestAppTest.testLoginWithMissingCredentials -- Time elapsed: 0.879 s <<< FAILURE!
 java.lang.AssertionError: Login should fail with missing credentials expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -98,7 +98,7 @@ java.lang.AssertionError: Login should fail with missing credentials expected [t
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.test.org.tests.TestAppTest.testDropdownSelectByText -- Time elapsed: 0.598 s <<< FAILURE!
+com.test.org.tests.TestAppTest.testDropdownSelectByText -- Time elapsed: 0.574 s <<< FAILURE!
 java.lang.AssertionError: Selected option should be 'Option 1' expected [Option 1] but found [Select Option]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -123,7 +123,7 @@ java.lang.AssertionError: Selected option should be 'Option 1' expected [Option 
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.test.org.tests.TestAppTest.testDropdownSubmitWithoutSelection -- Time elapsed: 0.859 s <<< FAILURE!
+com.test.org.tests.TestAppTest.testDropdownSubmitWithoutSelection -- Time elapsed: 0.849 s <<< FAILURE!
 java.lang.AssertionError: Status message should prompt to select an option expected [Select an option] but found [Login successful]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -148,7 +148,7 @@ java.lang.AssertionError: Status message should prompt to select an option expec
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.test.org.tests.TestAppTest.testStatusMessageDisplayedAfterSubmit -- Time elapsed: 0.136 s <<< FAILURE!
+com.test.org.tests.TestAppTest.testStatusMessageDisplayedAfterSubmit -- Time elapsed: 0.004 s <<< FAILURE!
 java.lang.AssertionError: Status message should be displayed after submit expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

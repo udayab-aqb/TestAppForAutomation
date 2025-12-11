@@ -2,11 +2,17 @@ pipeline {
     agent any
 
     tools {
-        jdk 'JDK 21'
+        jdk 'JDK 17'
         maven 'Maven3'
     }
 
     stages {
+
+        stage('Check Git') {
+            steps {
+                    sh 'git --version'
+            }                                       
+        }
 
         stage('Checkout') {
             steps {
