@@ -19,7 +19,7 @@ pipeline {
                 Checkout([$class: 'GitSCM', branches: [[name: '*/develop10Dec2025']],
                  userRemoteConfigs: [[url: 'https://github.com/udayab-aqb/TestAppForAutomation.git',
                  credentialsId: 'github-creds']]
-                 ,gitTool: 'Default'])
+                 ])
             }
         }
 
