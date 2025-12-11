@@ -16,8 +16,10 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'develop10Dec2025',
-                    url: 'https://github.com/udayab-aqb/TestAppForAutomation.git'
+                Checkout([$class: 'GitSCM', branches: [[name: '*/develop10Dec2025']],
+                 userRemoteConfigs: [[url: 'https://github.com/udayab-aqb/TestAppForAutomation.git',
+                 credentialsId: 'github-creds']]
+                 ,gitTool: 'Default'])
             }
         }
 
