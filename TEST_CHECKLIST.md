@@ -1,4 +1,4 @@
-#  Selenium Test Automation Framework – QA Checklist (POM)
+# Selenium Test Automation Framework – QA Checklist (POM)
 
 This document contains the main checkpoints for maintaining test quality, test coverage, and XPath standards in the Selenium Java POM framework.
 
