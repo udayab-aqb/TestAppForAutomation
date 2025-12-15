@@ -46,7 +46,8 @@ build/
 
 
 ### Windows ###
-src/test/resources/config.properties
+src/test/resources/config/config.properties
+config.properties
 
 ##ignore env files
 *.env
