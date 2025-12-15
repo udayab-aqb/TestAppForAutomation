@@ -60,7 +60,7 @@ pipeline {
                     
                     // Commit and push back to repo
                     withCredentials([usernamePassword(credentialsId: 'github-creds', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
-                        sh ''
+                        sh '''
                             git config user.email "jenkins-bot@example.com"
                             git config user.name "Jenkins Bot"
                             git remote set-url origin https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/udayab-aqb/TestAppForAutomation.git
@@ -72,7 +72,7 @@ pipeline {
                             else
                                 echo "No changes to coverage report"
                             fi
-                        ''
+                        '''
                     }
                 }
             }
